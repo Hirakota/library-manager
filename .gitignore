@@ -1,0 +1,28 @@
+# Компилированные файлы (Maven)
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Настройки IDEA (они у каждого свои)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# Настройки Eclipse (на всякий случай)
+.classpath
+.project
+.settings/
+bin/
+
+# Операционные системы
+.DS_Store
+Thumbs.db
+
+# Логи
+*.log
+logs/
+
+# Файлы с секретами (пароли, токены)
+.env
+application-secret.properties
